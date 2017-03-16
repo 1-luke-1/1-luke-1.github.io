@@ -10,6 +10,7 @@ li{
 	font-size: 40px;
 	margin:0;
 	padding:0;
+	width: auto;
 	background-color: #111111;
 	color: #010101;
 }
@@ -39,6 +40,9 @@ li a:link, a:visited{
 a{
 	text-decoration: none;
 }
+.about{
+ margin-left:auto; 
+}
 
 .dropdown {
     position: relative;
@@ -50,10 +54,8 @@ a{
     position: absolute;
     margin: 0;
     background-color: #000000;
-    min-width: 160px;
-    max-width: 500px;
-    min-height: 100px;
-    max-height: 215px;
+    width: 470px;
+    height: auto;
     text-align: center;
     padding:0;
 }
@@ -68,9 +70,34 @@ a{
 }
 
 div{
-	padding-top:100px;
-	margin-top: 200px;
+	padding-top:300px;
+	margin-bottom:0;
 	position:relative;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
+}
+#cont a{
+	padding: 10px;
+	margin-top: 30px;
+	width: auto;
+	height:auto;
+	font-size: 100px;
+	align-self: center;
+	opacity: 0.5;
+	text-decoration: none;
+	color: white;
+	background-color: #000;
+	border-radius: 10px;
+}
+#cont a:hover{
+	opacity: 1;	
+	color: #333;
+	background-color: #ccc;
+}
+#about{
+	margin-left: auto;
+}
+#secret{
+	opacity: 0;
+	font-size: 20px;
 }
