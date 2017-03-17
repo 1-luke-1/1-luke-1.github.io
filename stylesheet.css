@@ -1,8 +1,13 @@
+@font-face{
+	font-family: myfont;
+	src:url('./font/October Crow.ttf');
+}
 body{
 	background-image:url('back.png');
-	background-size: cover;
+	background-size: stretch;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	font-family: myfont;
 }
 
 li{
