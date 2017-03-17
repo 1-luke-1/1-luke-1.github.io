@@ -1,5 +1,5 @@
 @font-face{
-	font-family: myfont;
+	font-family: newfont;
 	src:url('./font/October Crow.ttf');
 }
 body{
@@ -7,7 +7,7 @@ body{
 	background-size: stretch;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	font-family: myfont;
+	font-family: newfont;
 }
 
 li{
