@@ -19,7 +19,6 @@ li{
 	background-color: #111111;
 	color: #010101;
 }
-
 li a{
 	display: block;
 	padding: 30px 20px;
@@ -34,7 +33,7 @@ ul{
 	background-color: #111111;
 	z-index: 2;
 }
-li a:hover{
+li a:hover {
 	background-color: #555555;
 	color: black;
 }
@@ -79,6 +78,7 @@ div{
 	margin-bottom:0;
 	position:relative;
 	width: 100%;
+	border: 20px white;
 	height: 100%;
 }
 #cont a{
@@ -100,9 +100,22 @@ div{
 	background-color: #ccc;
 }
 #about{
-	margin-left: auto;
+	float: right;
+	margin-right: 20px;
+	background-color: #404;
+	opacity: 0.5;
 }
 #secret{
 	opacity: 0;
 	font-size: 20px;
+}
+.page{
+	font-family: times;
+	color: white;
+	text-align-last: center;
+	opacity: 0.6;
+}
+#para{
+	font-family: newfont;
+	font-size: 40px;
 }
